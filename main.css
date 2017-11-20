@@ -1,3 +1,4 @@
+
 body, html {
   margin: 0;
   padding: 0;
@@ -49,7 +50,7 @@ ul {
   height: 110px;
   margin-right: 1em;
   vertical-align: top;
-  width:140px;
+  width:130px;
 }
 
 .header__inner__title {
@@ -60,28 +61,16 @@ ul {
 }
 
 .header__title {
-  font-size: 3em;
-  padding-top: 0.8em;
+  font-size: 2em;
+  padding-top: 1em;
 }
 
 .header__subtitle {
   font-size: 1.5em;
 }
 
-/*
- *
- * Content
- *
- */
-
-.content__image{
-  height: 500px;
-  width:calc(100%-1em);
-  padding: 1em 1em 1em;
-}
-
 .title__string{
-  font-weight: 200;
+  font-weight: 350;
   color: #212121;
   width: auto;
   text-align: right;
