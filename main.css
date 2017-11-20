@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body, html {
   margin: 0;
   padding: 0;
@@ -93,3 +94,89 @@ ul {
       float: left;
       margin-right: 8px;
 }
+||||||| merged common ancestors
+=======
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Roboto;
+  font-size: 12px;
+  color: #424242;
+}
+
+h1, h2, h3, h4, h5 {
+  margin: 0;
+}
+
+header, footer, section, article, div {
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+
+/*
+ *
+ * Header
+ *
+ */
+
+.header {
+  box-shadow: 0 5px 8px rgba(0, 0, 0, 0.26);
+  min-height: 56px;
+  transition: min-height 0.3s;
+  width: 100%
+}
+
+.header__inner {
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__logo {
+  height: 110px;
+  margin-right: 1em;
+  vertical-align: top;
+  width:130px;
+}
+
+.header__inner__title {
+  vertical-align: top;
+  width: calc(100%-158px);
+  display: block;
+  height: 110px;
+}
+
+.header__title {
+  font-size: 2em;
+  padding-top: 1em;
+}
+
+.header__subtitle {
+  font-size: 1.5em;
+}
+
+.title__string{
+  font-weight: 350;
+  color: #212121;
+  width: auto;
+  text-align: right;
+  display:block;
+  padding-right: 20px;
+}
+
+.left {
+      float: left;
+      margin-right: 8px;
+}
+>>>>>>> 3cf0f5165894cd5166bb82ca9549ff231eb04933
