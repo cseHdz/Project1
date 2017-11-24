@@ -48,7 +48,7 @@ td{
   box-shadow: 0 5px 8px rgba(0, 0, 0, 0.26);
   min-height: 56px;
   transition: min-height 0.3s;
-  width: 100%
+  width: 100%;
 }
 
 .header__inner {
@@ -66,9 +66,10 @@ td{
 
 .header__titles {
   vertical-align: top;
-  width: calc(100% - 158px);
-  display: block;
+  width: calc(100% - 150px);
+  display: inline-block;
   height: 110px;
+  box-sizing: border-box;
 }
 
 .header__title {
