@@ -26,6 +26,17 @@ ul {
   margin: 0;
 }
 
+th{
+  padding:10px;
+}
+
+td{
+  padding-left:10px;
+  padding-right:10px;
+  width:90%;
+  margin:auto;
+}
+
 
 /*
  *
@@ -48,9 +59,9 @@ ul {
 
 .header__logo {
   height: 110px;
-  margin-right: 1em;
   vertical-align: top;
   width:130px;
+  padding-left: 2em;
 }
 
 .header__inner__title {
@@ -70,7 +81,7 @@ ul {
 }
 
 .title__string{
-  font-weight: 350;
+  font-weight: 100;
   color: #212121;
   width: auto;
   text-align: right;
@@ -81,16 +92,61 @@ ul {
 
 /*
  *
- * Header
+ * Content
  *
  */
 
  .content__image{
-   .height = 500px;
+   display:block;
+   margin:auto;
+   width: 70%;
+   padding-top: 10px;
+   padding-bottom: 10px;
+
  }
+
+ .project__container{
+   display: block;
+   width: 100%;
+   max-height: 300px;
+ }
+
+ .container__table{
+   width:90%;
+   margin:auto;
+ }
+
+ .content__title{
+   display: block;
+   font-size: 2em;
+   color: #7d97ad;
+   text-align: left;
+   padding-left: 20px;
+   padding-top:10
+
+ }
+
+ .project__image{
+   display: block;
+   margin:auto;
+   width: 70%;
+   padding-top: 5px;
+   padding-bottom: 5px;
+ }
+
+.project__name{
+  text-align: center;
+}
+ /*
+  *
+  * Support
+  *
+  */
+
 
 
 .left {
       float: left;
-      margin-right: 8px;
+      padding-right:5px;
+      padding-left:5px;
 }
